@@ -1,0 +1,56 @@
+.login {
+    display: flex;
+    justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+     background-color: #1A2038;
+}
+
+.login-card {
+    max-width: 800px;
+    margin: 1rem;
+}
+
+.login-logo {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.login-icon {
+    font-size: 48px !important;
+}
+
+
+.login-container {
+    padding: 1rem 2rem 2rem 2rem;
+    height: 100%;
+}
+
+.login-email {
+    margin-bottom: 1.5rem !important;
+    width: 100% !important;
+}
+
+.login-password {
+    margin-bottom: 0.75rem !important;
+    width: 100% !important;
+}
+
+.login-checkbox {
+    margin-bottom: 0.75rem !important;
+    min-width: 288px !important;
+
+}
+
+.login-button {
+    position: relative !important;
+    margin-bottom: 1rem !important;
+}
+
+.login-button-progress {
+    position: absolute !important;
+    top:50% !important;
+    left: 50%;
+    margin-top: -12px;
+    margin-left: -12px;
+}

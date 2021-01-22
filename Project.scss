@@ -1,0 +1,90 @@
+@import "../Services/Services.sass";
+
+.projects {
+    background-color: $bgColor;
+}
+.projects > div {
+    @include middle();
+    text-align: center;
+    padding: 80px 1rem;
+   
+   .projects-text {
+       color: $primary_Color;
+       margin-bottom: 0;
+   }
+   
+   h2 {
+       margin: 4px;
+      
+   }
+    
+}
+
+.projects-card-holder {
+     position: relative;
+     height: 100%;
+     border-radius: 8px;
+     overflow: hidden;
+     border: 1px solid rgba(0,0,0,0.1);
+    
+      img {
+          width: 100%;
+          height: 100%;
+      }
+    }
+
+.projects-card-holder:hover > .projects-card-overlay {
+    opacity: 1;
+}
+
+.projects-card-overlay {
+    padding: 1rem;
+    transition: all 250ms ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: absolute;
+    border-radius: 8px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    background-color: rgba(0,0,0,0.67);
+    z-index: 5;
+    color: $bgColor;
+
+    .projects-button {
+        
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%) ;
+      
+      }
+
+      .projects-title {
+        margin: 0;
+    } 
+    
+    p {
+        margin-top: 0.25rem;
+    }
+}
+
+
+.text-white {
+    color: black !important;
+}
+
+.project-viewer-description {
+    word-break: break-word;
+    white-space: pre-wrap ;
+    
+}
+
+.project-viewer-title {
+
+    padding: 1rem;
+    text-align: left;
+}

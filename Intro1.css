@@ -1,0 +1,69 @@
+.intro1 {
+    background-image: linear-gradient(#6E5BFF, #5727C2);
+    padding-top: 32px !important;
+    height: 100vh;
+}
+
+* {
+    text-transform: none;
+}
+
+.intro1-containter {
+    margin: 0;
+    padding: 0 1rem;
+    max-width: 1170px;
+    margin: auto;
+    color: rgba(255, 255, 255, 0.87) !important;
+}
+
+.intro-container-p {
+    margin: 1.5rem 0 !important;
+}
+
+.intro1-container-text {
+    max-width: 400px !important;
+}
+
+.intro1-container-text > h1 {
+  
+    font-weight: normal !important;
+    color: rgba(255, 255, 255, 0.87) !important;
+    margin-bottom: 0.3rem;
+    margin-top: 0;
+}
+
+.intro1-container-text-line {
+    width: 120px !important;
+    padding-bottom: 2px !important;
+    background: rgba(255, 255, 255, 0.87) !important;
+}
+
+.intro1-container-buttons {
+    display: flex;
+}
+
+
+.intro1-container-button1{
+   margin-right: 1rem !important;
+   background-color: #5727C2 !important;
+   color: rgba(255,255,255,0.87) !important;
+}
+
+.intro1-container-button2 {
+    border: 1px solid  rgba(255,255,255,0.87) !important;
+    color:  rgba(255,255,255,0.87) !important;
+}
+
+
+.intro1-business-image {
+    width: 100%;
+}
+
+
+@media  (max-width : 600px ) {
+    .intro1 {
+    
+    padding-top: 5rem !important;
+    }
+}
+

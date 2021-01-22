@@ -1,0 +1,56 @@
+$bgColor: #FCFBFE
+$primary_Color: #5727c2
+
+@mixin middle()
+    max-width: 1200px
+    margin: auto
+
+.services
+    padding: 80px
+    background-color: $bgColor
+    text-align: center
+    @include middle()
+
+    span
+        color: $primary_Color
+    h2
+        margin: 4px
+
+.services-line
+    width: 72px
+    margin: auto
+    padding: 1px
+    background-color: $primary_Color
+    margin-bottom: 4rem
+
+.services-text
+    display: flex
+    flex-flow: column
+    justify-content: center
+    align-content: center
+
+    h4
+        margin-top: 30px
+        font-size: 18px
+        font-weight: 600
+
+.serives-rotated-rectangle
+    max-width: 100px
+    height: 100px
+    margin: auto
+    display: flex
+    justify-content: center
+    align-items: center
+    position: relative
+
+.serives-rotated-rectangle::after
+    position: absolute
+    content: " "
+    height: 100px
+    width: 100px
+    transform: rotate(45deg)
+    border-radius: 28px
+    border: 2px solid $primary_Color
+
+.serivices-icons
+    font-size: 48px !important

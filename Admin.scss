@@ -1,0 +1,97 @@
+.admin {
+    display: flex;
+    flex-flow: column;
+    justify-content: center !important;
+    
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 0 1rem;
+    max-width: 1170px;
+    padding-top: 1rem !important;
+}
+
+.admin-request-button {
+    background: #5727C2 !important;
+   
+    color:  rgba(255, 255, 255, 0.87) !important;
+}
+
+.admin-request-button {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+}
+
+
+.admin-card {
+    padding: 1rem !important;
+    background-color: #EBEBEB !important;
+    
+    text-align: center !important;
+
+    h3 {
+             padding-bottom: 2rem !important;
+             font-size: 25px;
+             text-align: center;
+    }
+}
+
+.admin-upload {
+ margin: 2rem;
+}
+
+.admin-upload-image {
+    margin-right: 1rem !important;
+    
+    padding: auto 1.5rem !important;
+    text-transform: capitalize !important;
+   
+}
+
+.px-6 {
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+} 
+
+.mb-8 {
+    margin-bottom: 2rem !important;
+}
+
+.admin-input {
+    margin-bottom: 1rem !important;
+}
+
+.pr-2 {
+    padding-right: 0.5rem !important;
+}
+
+
+
+.hidden {
+    display: none;
+}
+
+
+// Request.js Css classes
+
+
+.requests {
+    margin: 1rem ;
+    background-color: lightgray;
+}
+
+.requests-card {
+    padding: 1rem !important;
+    height: 100% !important;
+    position: relative !important;
+
+}
+
+.mb-2 {
+    margin-bottom: 0.5rem !important;
+}
+
+.requests-details {
+    word-break: break-word;
+    white-space: pre-wrap ;
+}

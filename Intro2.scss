@@ -1,0 +1,51 @@
+$textcolor: #5727c2;
+
+.intro2 {
+    padding: 80px 0;
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+}
+  
+@media (max-width: 600px) {
+  .intro2 {
+    flex-flow: column;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+
+.intro2-elements {
+  padding: 10px;
+
+  h2 {
+    margin-block-end: 4px;
+}
+  div {
+    padding: 1px;
+    background-color: $textcolor;
+    width: 14%;
+    margin-bottom: 1rem;
+}
+ span{
+  color: $textcolor;
+ }
+
+ p {
+    text-align: left;   
+ }
+}
+
+
+    
+.intro2-element {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+
+    span {
+        color: $textcolor;
+    }
+}
